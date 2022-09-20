@@ -1,0 +1,9 @@
+services:
+  jupiter:
+    build:
+      context: docker
+    volumes:
+      - ./:/home/jovyan/try-notebook
+    ports:
+      - "8888:8888"
+      - "4444:4444"
