@@ -1,0 +1,11 @@
+services:
+  jupiter:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    volumes:
+      - ./:/home/jovyan
+    env_file:
+      - ./.env
+    ports:
+      - "8888:8888"

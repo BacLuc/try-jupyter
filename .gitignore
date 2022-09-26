@@ -1,0 +1,7 @@
+*.iml
+.env
+.idea
+/*.csv
+/.ipython
+/.jupyter
+/.local
