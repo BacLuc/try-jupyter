@@ -2,6 +2,7 @@
 .env
 .idea
 /*.csv
+/*.pickle
 /.cache
 /.ipython
 /.jupyter
