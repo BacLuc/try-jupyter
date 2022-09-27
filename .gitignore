@@ -2,6 +2,7 @@
 .env
 .idea
 /*.csv
+/.cache
 /.ipython
 /.jupyter
 /.local
