@@ -1,6 +1,7 @@
 *.iml
 .env
 .idea
+/*.conda
 /*.csv
 /*.pickle
 /.cache
